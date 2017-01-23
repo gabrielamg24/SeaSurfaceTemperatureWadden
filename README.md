@@ -18,9 +18,9 @@
 (paste python script) 
 
 
-      ###Code 
-      **If you want to learn how to write a code like ours click here!**
-      (add link) 
+###Code 
+      **If you want to learn how to write a code like ours click [here] (link) !**
+       
 ---
 ##Temperature map 
 
