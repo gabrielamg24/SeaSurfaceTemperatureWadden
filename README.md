@@ -19,7 +19,7 @@
 
 
 ###Code 
-      **If you want to learn how to write a code like ours click [here] (link) !**
+      **If you want to learn how to write a code like ours click [here](link) !**
        
 ---
 ##Temperature map 
