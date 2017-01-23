@@ -1,8 +1,11 @@
 
-SST Wadden Sea ![Wadden Sea]!(https://github.com/gabrielamg24/SST/blob/extras/waddensea.jpg)
+SST Wadden Sea ![Wadden Sea](https://github.com/gabrielamg24/SST/blob/extras/waddensea.jpg)
+
+##Sea Surface Temperature throughout time 
+Python program that generates a video from color temperature based maps by running an R-script on data of sea surface temperature (SST) in the Wadden Sea 
 ==================
 
-  - [Installation](#installation)
+  - [Usage](#usage)
   - [Output example](#output-example)
   - [Usage](#usage)
     - [Params](#params)
@@ -14,13 +17,6 @@ SST Wadden Sea ![Wadden Sea]!(https://github.com/gabrielamg24/SST/blob/extras/wa
   - [Contributing](#contributing)
   - [License](#license)
 
-
-
-
-#SST-Wadden Sea
-##Sea Surface Temperature throughout time 
-Python program that generates a video from color temperature based maps by running an R-script on data of sea surface temperature (SST) in the Wadden Sea 
-![User Features](linkimage waddensea)
 ---
 ##Usage 
 (paste python script) 
