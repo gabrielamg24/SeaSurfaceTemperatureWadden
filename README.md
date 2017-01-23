@@ -25,7 +25,12 @@
 ## Features and advantages of this project
 
 
-###Challenges 
+###Challenges
+
+- [ ] set year range 
+- [ ] extract data directly from python 
+- [ ] set maximal temperature -Rscript
+
 --- 
 ## Are we missing something? 
 
