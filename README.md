@@ -7,10 +7,8 @@
 ##Index
   - [Usage](#usage)
     - [Code](#code)
-    - [GitHub token](#github-token)
   - [Features and advantages of this project](#features-and-advantages-of-this-project)
-    - [Alternatives](#alternatives)
-    - [Projects using this library](#projects-using-this-library)
+    - [Challenges](#challenges)
   - [Are we missing something?](#are-we-missing-something)
   - [License](#license)
 
@@ -26,6 +24,8 @@
 --- 
 ## Features and advantages of this project
 
+
+###Challenges 
 --- 
 ## Are we missing something? 
 
