@@ -4,31 +4,35 @@
 ##Sea Surface Temperature throughout time
 ###Python program that generates a video from color temperature based maps by running an R-script on data of sea surface temperature (SST) in the Wadden Sea 
 ==================
-
+##Index
   - [Usage](#usage)
-  - [Output example](#output-example)
-  - [Usage](#usage)
-    - [Params](#params)
+    - [Code](#code)
     - [GitHub token](#github-token)
   - [Features and advantages of this project](#features-and-advantages-of-this-project)
     - [Alternatives](#alternatives)
     - [Projects using this library](#projects-using-this-library)
-  - [Am I missing some essential feature?](#am-i-missing-some-essential-feature)
-  - [Contributing](#contributing)
+  - [Are we missing something?](#are-we-missing-something)
   - [License](#license)
 
 ---
 ##Usage 
 (paste python script) 
 
+
+      ###Code 
+      **If you want to learn how to write a code like ours click here!**
+      (add link) 
+
 --- 
 ## Features and advantages of this project
 
 --- 
+## Are we missing something? 
 
-
+**Don't be shy, let us know!**
+open an issue and we'll build this up together 
 
 ## License
->You can check out the full license [here](link
+>You can check out the full license [here](link)
 
 This project is licensed under the terms of the ** GNU GENERAL PUBLIC LICENSE** license.
