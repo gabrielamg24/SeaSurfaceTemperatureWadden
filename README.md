@@ -6,7 +6,9 @@
 ==================
 ##Index
   - [Usage](#usage)
-    - [Code](#code)
+    - [Python](#python)
+    - [R script](#r-script)
+    - [How to](#how-to)
   - [Temperature map](#temperature-map)
   - [Features and advantages of this project](#features-and-advantages-of-this-project)
     - [Challenges](#challenges)
@@ -17,8 +19,13 @@
 ##Usage 
 (paste python script) 
 
+###Python
 
-###Code 
+
+###R script
+
+
+###How to 
       **If you want to learn how to write a code like ours click [here](link) !**
        
 ---
