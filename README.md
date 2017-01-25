@@ -87,6 +87,8 @@ The following script generates color-based temperature maps per month from 1993 
 ---
 ##Temperature map 
 
+![GIF FINALLY](https://github.com/gabrielamg24/SST/blob/master/plot2.gif)
+
 --- 
 ##Features and advantages of this project
 
