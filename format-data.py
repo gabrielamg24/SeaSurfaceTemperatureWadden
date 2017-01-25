@@ -10,7 +10,7 @@ import glob
 
 #Open a new file in format .txt where we will save the output lines from all other files
 #The header is also stated in format csv 
-Header = 'Latitude,Longitude,Year,Month,Temperature\n'
+Header = 'Latitude,Longitude,Year.Month,Temperature\n'
 data = open("All_data.txt",'w')
 data.write(Header)
 data.close()
@@ -30,7 +30,7 @@ for filename in glob.glob('*.csv'):
                                 #line = line.replace(r"(^.+)",r"Latitude,Longitude,\1")
                                 #print newline
                                 #for the new line, we use regular expression to rearrange the data, get rid of day, time and sea surface temperature                                              anomalies; as well as leaving only 3 decimal point for temperature 
-                                match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),(\w+)-(\w+)-\w+:\w+:\w+.\w+,(\w+.\w{1,3}).*',r"\1,\2,\3,\4,\5",newline)
+                                match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),(\w+)-(\w+)-\w+:\w+:\w+.\w+,(\w+.\w{1,3}).*',r"\1,\2,\3-\4,\5",newline)
                                 #delete the original header of each file 
                                 match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),T.*',r"",match)
                                 #delete blank lines 
