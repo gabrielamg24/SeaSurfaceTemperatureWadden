@@ -22,7 +22,7 @@
 
 gif
 
-![gif](https://github.com/gabrielamg24/SST/blob/master/ggplot2-brownian-motion.gif)
+![](https://github.com/gabrielamg24/SST/blob/master/ggplot2-brownian-motion.gif)
 
 ###Python
 
