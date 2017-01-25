@@ -47,14 +47,14 @@ gif
                     else:
                   newline = "%s,%s,%s" % (Latitude,Longitude,line)
                                          
-                                          match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),(\w+)-(\w+)-\w+:\w+:\w+.\w+                (\w+.\w{1,3}).*',r"\1,\2,\3-\4,\5",newline)                                  
+                                          match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),(\w+)-(\w+)-\w+:\w+:\w+.\w+(\w+.\w{1,3}).*',r"\1,\2,\3-\4,\5",newline)                                        
                                           match = re.sub(r'^(\w+.\w+),(-*\w+.\w+),T.*',r"",match)                                       
                         match = re.sub(r'^\n',r"",match)
                   f2 = open ('All_data.txt','a')
                   f2.write(match)
                   f2.close()
 
-
+You can also see the [code](https://github.com/gabrielamg24/SST/blob/master/format-data.py)  with comments to better understand 
 
 ###R script
 
