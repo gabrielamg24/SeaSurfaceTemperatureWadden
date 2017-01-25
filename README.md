@@ -78,6 +78,8 @@ The following script generates color-based temperature maps per month from 1993 
 
                   gganimate(p)
 
+[R script with comments](https://github.com/gabrielamg24/SST/blob/master/gganimate.r)
+
 
 ###How to 
       **If you want to learn the basics to write a code like ours click [here](link) !**
