@@ -17,7 +17,7 @@
 
 ---
 ##Usage 
-(paste python script) 
+
 
 
 ###Python
