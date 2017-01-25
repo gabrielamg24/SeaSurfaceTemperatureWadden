@@ -10,7 +10,7 @@ str(data)
 
 #Make plots and save them as a .gif file
 saveGIF({
-    for (i in unique(c(data$Year,data$Month))) {
+    for (i in unique(data$"Year.Month")) {
         print(
 ggplot(data,aes(Longitude,Latitude,color=Temperature))+geom_point()+
 scale_colour_gradient2(limits=c(min(data$Temperature),
