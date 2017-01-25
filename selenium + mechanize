@@ -39,8 +39,10 @@
   # Fill in the login form fields and submit the form. 
   br.form['latitude'] = latitude
   br.form['longitude'] = longitude
-  br.form['start'] = month-year
-  br.form['end'] = month-year
+  br.form['startYear'] = startYear
+  br.form['endYear'] = endYear
+  br.form['startMonth'] = startMonth
+  br.form['endMonth'] = endMonth 
   br.submit()
 
   # The page returned after the submit is a transition page with a link
