@@ -50,7 +50,7 @@
                   f2.write(match)
                   f2.close()
 
-You can also see the [code](https://github.com/gabrielamg24/SST/blob/master/format-data.py)  with comments to better understand 
+[Python script with comments](https://github.com/gabrielamg24/SST/blob/master/format-data.py)
 
 ###R script
 
