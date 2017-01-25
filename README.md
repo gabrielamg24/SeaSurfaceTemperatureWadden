@@ -20,10 +20,6 @@
 (paste python script) 
 
 
-gif
-
-![](https://github.com/gabrielamg24/SST/blob/master/ggplot2-brownian-motion.gif)
-
 ###Python
 
           #! /usr/bin/env python
@@ -58,9 +54,33 @@ You can also see the [code](https://github.com/gabrielamg24/SST/blob/master/form
 
 ###R script
 
+The following script generates color-based temperature maps per month from 1993 to 2010 of sea surface temperature 
+
+                  library(ggplot)
+                  library(cowplot)
+                  library(ggmap)
+                  library(gganimate)
+
+
+                  setwd("~/Downloads")
+                  data<-read.table("All_data.txt",sep=",",header=T)
+                  str(data)
+
+                  lon<-mean(min(data$Longitude),max(data$Longitude))
+                  lat<-mean(min(data$Latitude),max(data$Latitude))
+                  map<-get_map(location=c(lon,lat),zoom=6,maptype="watercolor")
+
+                  p<-ggmap(map,base_layer=ggplot(data,aes(Longitude,Latitude,color=Temperature,frame=Year.Month)))+
+                  geom_point()+
+                  scale_colour_gradient2(limits=c(min(data$Temperature),
+                  max(data$Temperature)),low="turquoise1",mid="goldenrod1",high="red2",
+                  midpoint=283.5)
+
+                  gganimate(p)
+
 
 ###How to 
-      **If you want to learn how to write a code like ours click [here](link) !**
+      **If you want to learn the basics to write a code like ours click [here](link) !**
        
 ---
 ##Temperature map 
