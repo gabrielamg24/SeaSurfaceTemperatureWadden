@@ -80,8 +80,6 @@ If you don't have ggplot2 and ggmap installed in your packages, just do it by wr
           lon<-mean(c(min(data$Longitude),max(data$Longitude)))
           lat<-mean(c(min(data$Latitude),max(data$Latitude)))
           map<-get_map(location=c(lon,lat),zoom=6,maptype="satellite")
-
-          print
           
           year.month<-as.factor(unique(data$"Year.Month"))
           
@@ -98,8 +96,7 @@ If you don't have ggplot2 and ggmap installed in your packages, just do it by wr
           panel.grid.minor = element_blank())+theme(panel.border= element_blank())+
           theme(legend.position="right")+
           theme(plot.title = element_text(size=25),axis.title = element_text(size=22),
-          axis.text = 
-          element_text(size=22),legend.title=element_text(size=18),legend.text=element_text(size=15))+
+          axis.text = element_text(size=22),legend.title=element_text(size=18),legend.text=element_text(size=15))+
           theme(strip.text.x=element_blank())+
           theme(plot.background = element_rect(fill = "white",colour="white"))+ggtitle(year.month[i])
           #Save the plot into a .png file:
