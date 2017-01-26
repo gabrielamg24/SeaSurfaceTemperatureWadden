@@ -103,8 +103,6 @@ If you don't have ggplot2 and ggmap installed in your packages, just do it by wr
           ggsave(plot=p,filename=paste(year.month[i],".png",sep=""),width=8,height=8,dpi=100)
           }
 
-          print("Your maps are plotted and will now be combined into a .gif file.")
-
 [R script with comments](https://github.com/gabrielamg24/SST/blob/master/gganimate.r)
        
 ---
