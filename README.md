@@ -18,7 +18,7 @@
 ---
 ##Usage 
 
-For creating color temperature based maps and seeing them in gif format you need to run the following shell script! 
+For creating color temperature based maps and seeing them in gif format you just need to run the following shell script! 
 
 First step is heading over to http://www.esa-sst-cci.org/PUG/map.htm and downloading data from the region that interests you! 
 
