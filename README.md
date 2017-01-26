@@ -2,7 +2,7 @@
 #Sea Surface Temperature ![Wadden Sea](https://github.com/gabrielamg24/SST/blob/extras/waddensea.jpg)
 
 ##Sea Surface Temperature throughout time
-###Shell program that generates a video from color temperature based maps by running a Python-script and an R-script on data of sea surface temperature (SST) in the Wadden Sea 
+###Shell program that generates a video from color temperature based maps by running a Python-script and an R-script on data of sea surface temperature (SST) 
 ==================
 ##Index
   - [Usage](#usage)
@@ -33,13 +33,9 @@ For running the program in your computer you ned to have **Python** and **R 3.2.
 
           #!/bin/bash
 
-
           python regular.py $1
-
           
           Rscript maps.R
-          
-          #Create gifusing IMageMagick
 
           for FOLDER in 'ls *.png'
           do
@@ -122,7 +118,7 @@ If you don't have ggplot2 and ggmap installed in your packages, just do it by wr
 [R script with comments](https://github.com/gabrielamg24/SST/blob/master/gganimate.r)
        
 ---
-##RESULTS!!! 
+##RESULTS
 
 ![GIF FINALLY](https://github.com/gabrielamg24/SST/blob/master/maps.gif)
 
