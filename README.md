@@ -31,6 +31,21 @@ For running the program in your computer you ned to have **Python** and **R 3.2.
 
 ###Shell 
 
+          #!/bin/bash
+
+          #Run python script to rearrange data 
+          python regular.py $1
+
+          #Run R scripts and get the files saved into a folder 
+          Rscript maps.R
+
+          #Create .gif usinge imagemagick, installed by default in linux 
+
+          for FOLDER in 'ls *.png'
+          do
+            convert -delay 200 *.png -loop 0 file.gif
+          done
+
 ###Python
 
 This script will help you rearrange your data files and compile them into one!
