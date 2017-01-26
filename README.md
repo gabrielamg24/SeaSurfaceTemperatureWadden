@@ -6,10 +6,11 @@
 ==================
 ##Index
   - [Usage](#usage)
+    - [Shell](#shell)
     - [Python](#python)
     - [R script](#r-script)
     - [How to](#how-to)
-  - [Temperature map](#temperature-map)
+  - [RESULTS!!!](#results)
   - [Features and advantages of this project](#features-and-advantages-of-this-project)
     - [Challenges](#challenges)
   - [Are we missing something?](#are-we-missing-something)
@@ -18,9 +19,22 @@
 ---
 ##Usage 
 
+For creating color temperature based maps and seeing them in gif format you need to run the following shell script! 
 
+First step is heading over to http://www.esa-sst-cci.org/PUG/map.htm and downloading data from the region that interests you! 
+
+For running the program in your computer you ned to have **Python** and **R 3.2.2** installed. You will also need to download the following files into a single folder: 
+
+[Shell script](change link )
+[Python script](https://github.com/gabrielamg24/SST/blob/master/format-data.py)
+[R script](https://github.com/gabrielamg24/SST/blob/master/gganimate.r)
+[Data files](https://github.com/gabrielamg24/SST/blob/master/SST%20all%20files.zip) (use these files as an example!)
+
+###Shell 
 
 ###Python
+
+This script will help you rearrange your data files and compile them into one!
 
           #! /usr/bin/env python
 
@@ -54,8 +68,9 @@
 
 ###R script
 
-The following script generates color-based temperature maps per month from 1993 to 2010 of sea surface temperature 
+The following R-script generates color-based temperature maps per month from 1993 to 2010 of sea surface temperature. 
 
+If you don't have ggplot2 and ggmap installed in your packages, just do it by writing install.packages("name of package")
          
           library(ggplot2)
           library(ggmap)
@@ -96,24 +111,28 @@ The following script generates color-based temperature maps per month from 1993 
 
 [R script with comments](https://github.com/gabrielamg24/SST/blob/master/gganimate.r)
 
-
 ###How to 
       **If you want to learn the basics to write a code like ours click [here](link) !**
        
 ---
-##Temperature map 
+##RESULTS!!! 
 
 ![GIF FINALLY](https://github.com/gabrielamg24/SST/blob/master/maps.gif)
 
 --- 
 ##Features and advantages of this project
 
+You can run it directly from shell, you just need the files, R and python script in your computer and you're set!
+
+You have a clear explanation of each step needed to create your .gif
+
+
 
 ###Challenges
 
-- [ ] set year range 
-- [ ] extract data directly from python 
-- [ ] set maximal temperature -Rscript
+- [ ] set year range (using raw_input in Python)
+- [ ] extract data directly from python (program Selenium)
+- [ ] set maximal temperature for a species survival -Rscript 
 
 --- 
 ##Are we missing something? 
