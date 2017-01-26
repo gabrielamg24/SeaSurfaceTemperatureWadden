@@ -9,7 +9,7 @@
     - [Shell](#shell)
     - [Python](#python)
     - [R script](#r-script)
-  - [RESULTS!!!](#results)
+  - [RESULTS](#results)
   - [Features and advantages of this project](#features-and-advantages-of-this-project)
     - [Challenges](#challenges)
   - [Are we missing something?](#are-we-missing-something)
