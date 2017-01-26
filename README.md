@@ -1,5 +1,5 @@
 
-#SST Wadden Sea ![Wadden Sea](https://github.com/gabrielamg24/SST/blob/extras/waddensea.jpg)
+#SST HeatMap gif generator ![Wadden Sea](https://github.com/gabrielamg24/SST/blob/extras/waddensea.jpg)
 
 ##Sea Surface Temperature throughout time
 ###Python program that generates a video from color temperature based maps by running an R-script on data of sea surface temperature (SST) in the Wadden Sea 
