@@ -6,7 +6,7 @@
 ==================
 ##Index
   - [Usage](#usage)
-    - [Shell](#shell)
+    - [Shell](#Shell)
     - [Python](#python)
     - [R script](#r-script)
   - [RESULTS](#results)
